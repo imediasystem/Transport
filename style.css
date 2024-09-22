@@ -366,7 +366,7 @@ img {
     height: 150px;
     line-height: 150px;
     margin: 30px;
-    background: #444444;
+    background: #234670;
     border-radius: 50%;
     box-shadow: 2px 4px 10px 4px grey;
     color: #f3f3f3;
@@ -374,7 +374,7 @@ img {
 }
   
 .feature i:hover {
-    background-color: #000000;
+    background-color: #444444;
     animation: roll 2s infinite;
 }
 
@@ -488,7 +488,7 @@ img {
     text-align: center;
     text-shadow: 0.1em 0.1em 0.1em black;
     color: #f3f3f3;
-    background: #444444;
+    background: #234670;
     border-radius: 5px;
     box-shadow: 2px 4px 10px 4px grey;
     margin: 3%;
@@ -496,7 +496,7 @@ img {
 }
 
 .contact:hover {
-    background-color: #000000;
+    background-color: #444444;
     transition: all 0.5s;
 }
 
