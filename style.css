@@ -379,6 +379,11 @@ img {
     animation: roll 2s infinite;
 }
 
+@keyframes roll {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}
+
 .feature-description {
     padding: 0 10px;
     font-size: 16px;
@@ -504,6 +509,10 @@ img {
 .contact i {
     margin: 30px 0;
     text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+.contact i:hover {
+    animation: roll 2s infinite;
 }
 
 .contact h3 {
