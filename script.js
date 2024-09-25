@@ -1,4 +1,4 @@
-// jQuery Section //
+// jQuery FadeIn Section //
 
 $(document).ready(function(){
     $(".banner h1, .banner h2, .banner a").hide().fadeIn(3000);
