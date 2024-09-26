@@ -137,11 +137,7 @@ img {
     z-index: 9;
 }
 
-.logo a {
-    display: block;
-}
-
-.logo a img {
+.logo a img{
     display: block;
     width: 100%;
 }
@@ -376,12 +372,7 @@ img {
   
 .feature i:hover {
     background-color: #444444;
-    animation: faiconsanimation 2s infinite;
-}
-
-@keyframes roll {
-    from {transform: rotate(0deg)}
-    to {transform: rotate(360deg)}
+    animation: faiconsanimation 2s;
 }
 
 @keyframes faiconsanimation {
@@ -530,7 +521,12 @@ img {
 }
 
 .contact i:hover {
-    animation: roll 2s infinite;
+    animation: roll 2s;
+}
+
+@keyframes roll {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
 }
 
 .contact h3 {
