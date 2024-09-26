@@ -376,7 +376,7 @@ img {
   
 .feature i:hover {
     background-color: #444444;
-    animation: roll 2s infinite;
+    animation: faiconsanimation 2s infinite;
 }
 
 @keyframes roll {
@@ -384,11 +384,29 @@ img {
     to {transform: rotate(360deg)}
 }
 
+@keyframes faiconsanimation {
+    0%  {
+        transform: translateY(0);
+    }
+    15%  {
+        transform: translateY(-0.75em);
+    }
+    30%  {
+        transform: translateY(0.3em);
+    }
+    45%  {
+        transform: translateY(-0.15em);
+    }
+    60%  {
+        transform: translateY(0);
+    }
+}
+
 .feature-description {
     padding: 0 10px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
-    line-height: 1.7;
+    line-height: 1.5;
     margin: 30px 10px 20px 10px;
 }
 
