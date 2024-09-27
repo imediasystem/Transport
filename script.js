@@ -1,7 +1,10 @@
 // jQuery FadeIn Section //
 
 $(document).ready(function(){
-    $(".banner h1, .banner h2, .banner a").hide().fadeIn(3000);
+    $(".banner h1, .banner h2, .banner a").hide();
+    $(".banner a").fadeIn();
+    $(".banner h2").fadeIn("slow");
+    $(".banner h1").fadeIn(3000);
 });
 
 
