@@ -2,53 +2,140 @@
    v2.0 | 20110126
    License: none (public domain) */
 
-   html, body, div, span, applet, object, iframe,
-   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-   a, abbr, acronym, address, big, cite, code,
-   del, dfn, em, img, ins, kbd, q, s, samp,
-   small, strike, strong, sub, sup, tt, var,
-   b, u, i, center,
-   dl, dt, dd, ol, ul, li,
-   fieldset, form, label, legend,
-   table, caption, tbody, tfoot, thead, tr, th, td,
-   article, aside, canvas, details, embed, 
-   figure, figcaption, footer, header, hgroup, 
-   menu, nav, output, ruby, section, summary,
-   time, mark, audio, video {
-     margin: 0;
-     padding: 0;
-     border: 0;
-     font-size: 100%;
-     font: inherit;
-     vertical-align: baseline;
-   }
-   /* HTML5 display-role reset for older browsers */
-   article, aside, details, figcaption, figure, 
-   footer, header, hgroup, menu, nav, section {
-     display: block;
-   }
-   body {
-     line-height: 1;
-   }
-   ol, ul {
-     list-style: none;
-   }
-   blockquote, q {
-     quotes: none;
-   }
-   blockquote:before, blockquote:after,
-   q:before, q:after {
-     content: '';
-     content: none;
-   }
-   table {
-     border-collapse: collapse;
-     border-spacing: 0;
-   }
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 
 /* Global Site Styles */
 
-* {  
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -69,7 +156,7 @@ body {
 section {
     position: relative;
     padding: 100px 0 0 0;
-  }
+}
 
 .container {
     max-width: 1080px;
@@ -77,10 +164,11 @@ section {
     padding: 0 10px;
 }
 
-a, a:hover {
+a,
+a:hover {
     text-decoration: none;
 }
-  
+
 img {
     max-width: 100%;
     height: auto;
@@ -112,7 +200,7 @@ img {
     border-radius: 100%;
 }
 
-  .feature-title {
+.feature-title {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
@@ -120,7 +208,7 @@ img {
     margin: 20px 0 10px 0;
     padding: 0 4px;
     text-shadow: 0.1em 0.1em 0.1em grey;
-  }
+}
 
 
 /* ---- Navigation Menu ---- */
@@ -131,13 +219,13 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 0 25px;
     transition: 0.5s;
     z-index: 9;
 }
 
-.logo a img{
+.logo a img {
     display: block;
     width: 100%;
 }
@@ -188,7 +276,8 @@ img {
     transition: 0.5s;
 }
 
-.hamburger::before, .hamburger::after {
+.hamburger::before,
+.hamburger::after {
     content: "";
     position: absolute;
     height: 4px;
@@ -217,27 +306,28 @@ img {
     opacity: 0;
 }
 
-.hamburger, .toggle-menu {
+.hamburger,
+.toggle-menu {
     display: none;
 }
 
-.navigation input:checked ~ .hamburger {
+.navigation input:checked~.hamburger {
     background: transparent;
 }
 
-.navigation input:checked ~ .hamburger::before {
+.navigation input:checked~.hamburger::before {
     top: 0;
     transform: rotate(-45deg);
     width: 30px;
 }
 
-.navigation input:checked ~ .hamburger::after {
+.navigation input:checked~.hamburger::after {
     top: 0;
     transform: rotate(45deg);
     width: 30px;
 }
 
-.navigation input:checked ~ .menu {
+.navigation input:checked~.menu {
     right: 0;
     box-shadow: -20px 0 40px rgba(0, 0, 0, 0.03)
 }
@@ -245,7 +335,7 @@ img {
 /* ---- Banner ---- */
 
 .banner {
-    background: url("img/cool-trucks-under-orange-sky.jpg");
+    background: url(img/cool-trucks-under-orange-sky.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -263,7 +353,7 @@ img {
     margin: 1.7rem auto;
     padding: 30px;
     max-width: 1080px;
-	height: auto;
+    height: auto;
     background: linear-gradient(to right top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25));
     border-radius: 5px;
     -webkit-backdrop-filter: blur(8px);
@@ -282,7 +372,7 @@ img {
 .banner a {
     text-decoration: none;
     font-weight: bold;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     color: #f3f3f3;
     padding: 1rem 2rem;
     text-align: center;
@@ -295,7 +385,7 @@ img {
 
 .banner a:hover {
     color: grey;
-    background-color: rgba(0,0,0,1.0);
+    background-color: rgba(0, 0, 0, 1.0);
 }
 
 .about-firma {
@@ -316,7 +406,7 @@ img {
     padding: 0 20px;
 }
 
-.about-photo > img {
+.about-photo>img {
     border-radius: 5px;
     box-shadow: 2px 4px 10px 4px grey;
 }
@@ -325,10 +415,10 @@ img {
     font-size: clamp(1rem, 1.5vw, 1.2rem);
     font-weight: 500;
     line-height: 1.4rem;
-    
+
 }
 
-.about  h1 {
+.about h1 {
     color: #f3f3f3;
     font-size: clamp(1rem, 6vw, 3rem);
     font-weight: bold;
@@ -337,7 +427,7 @@ img {
     margin: 30px auto 0;
     padding: 30px;
     max-width: 95%;
-	height: auto;
+    height: auto;
     background: linear-gradient(to right top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25));
     border-radius: 5px;
     -webkit-backdrop-filter: blur(8px);
@@ -347,7 +437,7 @@ img {
 .features-wrapper {
     display: flex;
 }
-  
+
 .feature {
     flex: 27.33%;
     max-width: 27.33%;
@@ -369,26 +459,30 @@ img {
     color: #f3f3f3;
     text-shadow: 0.1em 0.1em 0.1em black;
 }
-  
+
 .feature i:hover {
     background-color: #444444;
     animation: faiconsanimation 2s;
 }
 
 @keyframes faiconsanimation {
-    0%  {
+    0% {
         transform: translateY(0);
     }
-    15%  {
+
+    15% {
         transform: translateY(-0.75em);
     }
-    30%  {
+
+    30% {
         transform: translateY(0.3em);
     }
-    45%  {
+
+    45% {
         transform: translateY(-0.15em);
     }
-    60%  {
+
+    60% {
         transform: translateY(0);
     }
 }
@@ -428,7 +522,7 @@ img {
     width: 100%;
     height: auto;
     margin: 80px 0;
-    
+
 }
 
 #slider #top-row {
@@ -446,18 +540,18 @@ img {
     border: 2px solid #444444;
     border-radius: 5px;
     box-shadow: 2px 4px 10px 4px grey;
-    
+
 }
 
 #slider .slide.active {
     display: block;
 }
-  
+
 #slider #bottom-row {
     display: flex;
     justify-content: center;
 }
-  
+
 #dots {
     margin-top: 20px;
     display: inline-flex;
@@ -465,7 +559,7 @@ img {
     padding-right: 0;
     border-radius: 2px;
 }
-  
+
 #dots .dot {
     width: 12px;
     height: 12px;
@@ -478,12 +572,13 @@ img {
 #dots .dot.visible {
     background-color: #444444;
 }
-  
+
 .arrow {
     margin: 0 10px;
 }
-  
-.arrow, .dot {
+
+.arrow,
+.dot {
     cursor: pointer;
 }
 
@@ -525,8 +620,13 @@ img {
 }
 
 @keyframes roll {
-    from {transform: rotate(0deg)}
-    to {transform: rotate(360deg)}
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
 }
 
 .contact h3 {
@@ -543,14 +643,15 @@ img {
 }
 
 iframe {
-	border: 2px solid #444444;
+    border: 2px solid #444444;
     border-radius: 5px;
     box-shadow: 2px 4px 10px 4px grey;
-	width: 94%; /* takes precedence over the width set with the HTML width attribute */
-	height: 30vh;
-	margin: 3%;
-	text-align: center;
-	align-items: center;
+    width: 94%;
+    /* takes precedence over the width set with the HTML width attribute */
+    height: 30vh;
+    margin: 3%;
+    text-align: center;
+    align-items: center;
 }
 
 
@@ -561,25 +662,27 @@ iframe {
     font-weight: bold;
     padding: 30px 0;
 }
-  
+
 .page-footer .container {
     display: flex;
     justify-content: space-between;
 }
-  
+
 .page-footer p {
     color: #f3f3f3;
     font-size: clamp(0.5rem, 6vw, 1rem);
     margin: 0;
 }
-  
+
 .page-footer a {
     color: #000000;
     text-shadow: 0.1em 0.1em 0.1em grey;
 }
 
 @media screen and (max-width: 834px) {
-    .hamburger, .toggle-menu {
+
+    .hamburger,
+    .toggle-menu {
         display: block;
     }
 
@@ -594,17 +697,18 @@ iframe {
         position: fixed;
         top: 0;
         right: -200px;
-        background: rgba(0,0,0,0.8);
+        background: rgba(0, 0, 0, 0.8);
         width: 200px;
         height: 100%;
         padding-top: 65px;
     }
 
-    .menu > li {
+    .menu li {
         width: 100%;
     }
 
-    .menu > li > a, .menu > li > a:hover {
+    .menu li a,
+    .menu li a:hover {
         padding: 30px;
         font-size: 24px;
         box-shadow: 0 1px 0 rgba(255, 255, 255, 0.03) inset;
@@ -619,7 +723,7 @@ iframe {
     .features-wrapper {
         display: block;
     }
-      
+
     .feature {
         flex: 90%;
         max-width: 90%;

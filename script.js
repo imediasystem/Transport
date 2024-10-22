@@ -8,7 +8,7 @@ $(document).ready(function(){
 });
 
 
-// Slider Section //
+// Gallery Slider Section //
 
 let activeSlideNumber = 1;
 
