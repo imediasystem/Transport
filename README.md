@@ -27,4 +27,4 @@ Write sth nice ;) Find me on [iMedia SysteM - imediasystem.eu](https://imediasys
 &nbsp;
 
 ## 👏 Thanks / Special thanks / Credits
-Thanks to my wife – for providing me with this task and for code review.
+Thanks to my wife – for her time, advice, encouragement and support in creating this project.
