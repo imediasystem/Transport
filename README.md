@@ -17,7 +17,7 @@ Designing, developing and hosting a website for a logistics company using HTML, 
 
 ## 💿 Installation
 
-The project uses [node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/). Having them installed, type into the terminal: `npm i`.
+Some projects uses [node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/). Having them installed, type into the terminal: `npm i`.
 
 &nbsp;
 
