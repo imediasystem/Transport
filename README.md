@@ -21,8 +21,14 @@ Some projects uses [node](https://nodejs.org/en/) and [npm](https://www.npmjs.co
 
 &nbsp;
 
+## 🔗 See also
+
+Are you interested in? See my other projects and visit my website [iMedia SysteM - imediasystem.eu](https://imediasystem.eu/)
+
+&nbsp;
+
 ## 🙋‍♂️ Feel free to contact me
-Write sth nice ;) Find me on [iMedia SysteM - imediasystem.eu](https://imediasystem.eu/)
+Write sth nice ;) Find me on [LinkedIn](https://www.linkedin.com/in/krzysztof-graca-47698997/)
 
 &nbsp;
 
