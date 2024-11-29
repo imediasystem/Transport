@@ -1,3 +1,2 @@
 Designing, developing and hosting a website for a logistics company using HTML, CSS, JavaScript and jQuery. This project involve creating a user-friendly interface and ensuring reliable hosting services, enhancing the company's online presence and client interactions.
-💡 Technologies
-HTML5 CSS3 JavaScript
+Project Name
