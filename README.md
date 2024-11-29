@@ -20,7 +20,7 @@ The project uses [node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/
 &nbsp;
 
 ## 🙋‍♂️ Feel free to contact me
-Write sth nice ;) Find me on...
+Write sth nice ;) Find me on [iMedia SysteM - imediasystem.eu](https://imediasystem.eu/)
 
 &nbsp;
 
