@@ -434,6 +434,8 @@ img {
     backdrop-filter: blur(8px);
 }
 
+/* ---- Offer ---- */
+
 .features-wrapper {
     display: flex;
 }
@@ -512,6 +514,8 @@ img {
     border-radius: 100%;
 }
 
+/* ---- Gallery ---- */
+
 .gallery {
     display: flex;
     flex-direction: column;
@@ -581,6 +585,9 @@ img {
 .dot {
     cursor: pointer;
 }
+
+
+/* ---- Contact ---- */
 
 .contacts {
     text-align: center;
@@ -653,6 +660,8 @@ iframe {
     text-align: center;
     align-items: center;
 }
+
+/* ---- Footer ---- */
 
 
 .page-footer {
