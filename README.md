@@ -2,7 +2,7 @@
 
 ## 🔥 Project Name - TRANSPORT
 
-See the live version of [TRANSPORT](https://imediasystem.github.io/Transport/)
+See the live version of [TRANSPORT](https://imediasystem.github.io/Transport/) ↗️
 
 Designing, developing and hosting a website for a logistics company using HTML, CSS, JavaScript and jQuery. This project involve creating a user-friendly interface and ensuring reliable hosting services, enhancing the company's online presence and client interactions.
 &nbsp;
@@ -19,7 +19,7 @@ Some projects uses [node](https://nodejs.org/en/) and [npm](https://www.npmjs.co
 &nbsp;
 
 ## 🔗 See also
-Are you interested in? See my other projects and visit my website [iMedia SysteM - imediasystem.eu](https://imediasystem.eu/)
+Are you interested in? See my other projects and visit my website [iMedia SysteM](https://imediasystem.pl/) ↗️
 &nbsp;
 
 ## 📝 Feel free to contact me
